@@ -1,8 +1,9 @@
-#snippets
+# snippets
 Code snippets for myself.
 
 | Date       | Language | Description                                                                                                                              | Archive                                          |
 | ----       | ----     | ----                                                                                                                                     | ----                                             |
+| 2017-11-01 | C        | Memcpy between the two different type values                                                                                             | [memcpy.c](C/memcpy.c)                           |
 | 2017-09-07 | C        | How to create daemon                                                                                                                     | [daemon.c](C/daemon.c)                           |
 | 2017-08-20 | C        | Linux native AIO                                                                                                                         | [aio](C/aio)                                     |
 | 2017-08-02 | C        | A simple echo server for learning purpose                                                                                                | [echo](C/echo)                                   |

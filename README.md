@@ -4,7 +4,7 @@ Code snippets for myself.
 | Date       | Language | Description                                                                                                                              | Archive                                          |
 | ----       | ----     | ----                                                                                                                                     | ----                                             |
 | 2018-10-01 | C        | Structure memory alignment                                                                                                               | [struct.c](C/struct.c)                           |
-| 2018-08-21 | C        | How does the variable of the parent process change when the child process changes the variable?                                          | [fork](C/fork)                                   |
+| 2018-08-21 | C        | The inheritance of variable between parent process and child process                                                                     | [fork](C/fork)                                   |
 | 2017-11-01 | C        | Memcpy between the two different type values                                                                                             | [memcpy.c](C/memcpy.c)                           |
 | 2017-09-07 | C        | How to create daemon                                                                                                                     | [daemon.c](C/daemon.c)                           |
 | 2017-08-20 | C        | Linux native AIO                                                                                                                         | [aio](C/aio)                                     |

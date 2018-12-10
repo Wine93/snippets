@@ -3,6 +3,7 @@ Code snippets for myself.
 
 | Date       | Language | Description                                                                                                                              | Archive                                          |
 | ----       | ----     | ----                                                                                                                                     | ----                                             |
+| 2018-12-11 | C        | Glibc function malloc and memory                                                                                                         | [malloc.c](C/malloc.c)                           |
 | 2018-10-01 | C        | Structure memory alignment                                                                                                               | [struct.c](C/struct.c)                           |
 | 2018-08-21 | C        | The inheritance of variable between parent process and child process                                                                     | [fork](C/fork)                                   |
 | 2017-11-01 | C        | Memcpy between the two different type values                                                                                             | [memcpy.c](C/memcpy.c)                           |

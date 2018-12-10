@@ -26,8 +26,8 @@ struct y {
 int
 main()
 {
-    printf ("sizeof(struct x): %d\n", sizeof(struct x));
-    printf ("sizeof(struct y): %d\n", sizeof(struct y));
+    printf ("sizeof(struct x): %d\n", sizeof(struct x));  // 16
+    printf ("sizeof(struct y): %d\n", sizeof(struct y));  // 12
 
     return 0;
 }

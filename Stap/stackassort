@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+
+# Copyright (C) Yuyang Chen (Wine93)
+
+############################  GLOBAL VARIABLES
+rid=0
+bt_file=''
+
+############################  FUNCTIONS
+msg() {
+    printf '%b' "$1" >&2
+}
+
+die() {
+    msg "\33[31m[✘]\33[0m ${1}${2}"
+    exit 1
+}
+
+usage () {
+    cat << _EOC_
+Usage:
+    stackassort [options] file
+
+Options:
+    -r <rid>            xxx.
+    -l                  xxx.
+    -h                  Print this usage.
+
+Examples:
+    stackassort -l
+    stackassort -r 1
+_EOC_
+}
+
+get_options() {
+    while getopts "lr:" opts
+    do
+        case $opts in
+            l)
+                ;;
+            r)
+                rid=$OPTARG
+                ;;
+            h)
+                usage
+                exit 0
+                ;;
+            \?)
+                usage
+                exit 1
+                ;;
+        esac
+    done
+
+    shift $(($OPTIND - 1))
+    if [ $# -eq 0 ]; then
+        usage
+        exit 1
+    else
+        bt_file="$1"
+    fi
+}
+
+stackassort() {
+    rid="$1"
+    bt_file="$2"
+
+    awk 'BEGIN { enter = -1 }
+    {
+        if ($1 == "{") {
+            enter = $2
+        } else if ($1 == "}") {
+            enter = -1
+        } else if (enter > 0) {
+            print $0
+        }
+    }' "$bt_file"
+}
+
+main() {
+    get_options "$@"
+
+    stackassort "$rid" "$bt_file"
+}
+
+############################  MAIN()
+main "$@"

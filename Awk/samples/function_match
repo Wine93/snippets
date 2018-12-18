@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+awk '
+BEGIN{
+    if (match("hello, 1234", "([0-9])([0-9]*)", mu)) {
+        print mu[0]  # 1234
+        print mu[1]  # 1
+        print mu[2]  # 234
+    }
+}'

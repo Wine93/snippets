@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+awk 'BEGIN {
+    a[1] = 1
+    a["foo"] = "bar"
+
+    if ("foo" in a) {
+        print a["foo"]  # bar
+    }
+
+    if (a["foo"]) {
+        print a["foo"]  # bar
+    }
+
+    for (k in a) {
+        print k " = " a[k]
+    }
+    # 1 = 1
+    # foo = bar
+
+    delete a["foo"]
+
+    for (k in a) {
+        print k " = " a[k]
+    }
+    # 1 = 1
+}'

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+awk '
+BEGIN {
+    // Numeric Functions
+    print sqrt(4)  # 2
+    print sqrt(5)  # 2.23607
+
+    print int(3.14)  # 3
+    print int(-3.14)  # -3
+}'

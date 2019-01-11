@@ -3,6 +3,7 @@ Code snippets for myself.
 
 | Date       | Language | Description                                                                                                                              | Archive                                          |
 | ----       | ----     | ----                                                                                                                                     | ----                                             |
+| 2019-01-08 | C        | Detect system byte ordering                                                                                                              | [endianness.c](C/endianness.c)                   |
 | 2018-12-18 | Awk      | The cheat sheet for awk                                                                                                                  | [awk](Awk)                                       |
 | 2018-12-18 | Stap     | The tool analyzes memory alloc backtrace for each request in specified nginx worker process                                              | [ngx-req-alloc-bt](Stap/ngx-req-alloc-bt)        |
 | 2018-12-11 | C        | Glibc function malloc and memory                                                                                                         | [malloc.c](C/malloc.c)                           |

@@ -3,6 +3,7 @@ Code snippets for myself.
 
 | Date       | Language | Description                                                                                                                               | Archive                                          |
 | ----       | ----     | ----                                                                                                                                      | ----                                             |
+| 2019-05-14 | C        | A flexible C library from nginx                                                                                                           | [libngx](C/libngx)                               |
 | 2019-03-26 | C        | Implement lock by gcc(>4.1.2) built-in atomic operation [::See Also::](https://gcc.gnu.org/onlinedocs/gcc-4.1.2/gcc/Atomic-Builtins.html) | [atomic](C/atomic)                               |
 | 2019-01-15 | C        | An example to solve the interdependencies of header files                                                                                 | [include](C/include)                             |
 | 2019-01-08 | C        | Detect system byte ordering                                                                                                               | [endianness.c](C/endianness.c)                   |

@@ -3,14 +3,15 @@ Code snippets for myself.
 
 | Date       | Language | Description                                                                                                                               | Archive                                          |
 | ----       | ----     | ----                                                                                                                                      | ----                                             |
+| 2020-08-20 | Bash     | A script to init and start elasticsearch.                                                                                                 | [elastic.sh](Bash/elastic.sh)                    |
 | 2019-08-26 | C        | Flexible array members in a structure in C [::See also::](https://www.geeksforgeeks.org/flexible-array-members-structure-c/)              | [fam.c](C/fam.c)                                 |
 | 2019-07-11 | Lua      | The performance test for lua table(array) appending elements                                                                              | [table.lua](Lua/table.lua)                       |
 | 2019-05-14 | C        | A flexible C library from nginx                                                                                                           | [libngx](C/libngx)                               |
 | 2019-03-26 | C        | Implement lock by gcc(>4.1.2) built-in atomic operation [::See Also::](https://gcc.gnu.org/onlinedocs/gcc-4.1.2/gcc/Atomic-Builtins.html) | [atomic](C/atomic)                               |
 | 2019-01-15 | C        | An example to solve the interdependencies of header files                                                                                 | [include](C/include)                             |
 | 2019-01-08 | C        | Detect system byte ordering                                                                                                               | [endianness.c](C/endianness.c)                   |
-| 2018-12-18 | Awk      | The cheat sheet for awk                                                                                                                   | [awk](Awk)                                       |
-| 2018-12-18 | Stap     | The tool analyzes memory alloc backtrace for each request in specified nginx worker process                                               | [ngx-req-alloc-bt](Stap/ngx-req-alloc-bt)        |
+| 2018-12-18 | Bash     | The cheat sheet for awk                                                                                                                   | [awk](Bash/Awk)                                  |
+| 2018-12-18 | Bash     | The tool analyzes memory alloc backtrace for each request in specified nginx worker process                                               | [ngx-req-alloc-bt](Bash/Stap/ngx-req-alloc-bt)   |
 | 2018-12-11 | C        | Glibc function malloc and memory                                                                                                          | [malloc.c](C/malloc.c)                           |
 | 2018-10-01 | C        | Structure memory alignment                                                                                                                | [struct.c](C/struct.c)                           |
 | 2018-08-21 | C        | The inheritance of variable between parent process and child process                                                                      | [fork](C/fork)                                   |

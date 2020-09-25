@@ -3,7 +3,7 @@ Code snippets for myself.
 
 | Date       | Language | Description                                                                                                                               | Archive                                          |
 | ----       | ----     | ----                                                                                                                                      | ----                                             |
-| 2020-08-20 | Bash     | A script to init and start elasticsearch.                                                                                                 | [elastic.sh](Bash/elastic.sh)                    |
+| 2020-08-20 | Bash     | A script to init and start ElasticSearch                                                                                                  | [elastic.sh](Bash/elastic.sh)                    |
 | 2019-08-26 | C        | Flexible array members in a structure in C [::See also::](https://www.geeksforgeeks.org/flexible-array-members-structure-c/)              | [fam.c](C/fam.c)                                 |
 | 2019-07-11 | Lua      | The performance test for lua table(array) appending elements                                                                              | [table.lua](Lua/table.lua)                       |
 | 2019-05-14 | C        | A flexible C library from nginx                                                                                                           | [libngx](C/libngx)                               |
